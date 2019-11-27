@@ -1,0 +1,154 @@
+body {
+	margin:0;
+	padding: 0;
+	font-family: 'Old Standard TT', serif;
+}
+.header {
+	min-height: 50px;
+}
+.header img {
+	width: 90px;
+	height: 40px;
+	margin-left: 35px;
+}
+.header ul li{
+	list-style-type: none;
+	display: inline-block;
+	position: relative;
+	font-size: 20px;
+	margin-left: 20px;
+}
+.header ul {
+	margin-right: 50px;
+	float: right;
+	margin-bottom: 0;
+}
+.header a {
+	text-decoration: none;
+}
+.jumbotron {
+	min-height: 300px;
+	background-image: url(jumb3.jpg);
+	background-size: cover;
+	display: block;
+	padding: 150px 0 0 90px;
+	line-height: 1.5px;
+}
+.jumbotron h1 {
+	font-size: 60px;
+	color: #0b80bc;
+	font-weight: bold;
+}
+.jumbotron p {
+	font-size: 20px;
+	line-height: 20px;
+	font-weight: bold;
+}
+.jumbabout {
+	width: 100%;
+	min-height: 50px;
+	background-image: linear-gradient(to bottom right,#0b80bc,#5bbaeb);
+	text-align: center;
+	padding-top: 1px;
+	font-size: 20px;
+	line-height: 0;
+}
+.content {
+	min-height: 100px;
+	background-image: linear-gradient(to bottom right,#d3edfb,#fafbfb); 
+	overflow: auto;
+}
+.content h3 {
+	text-align: center;
+}
+.thumbnail {
+	min-height:200px;
+	overflow: auto;
+	margin: 10px 40px 0 40px;
+}
+.thumbnail img {
+	width: 300px;
+	height: 200px;
+	padding: 10px;
+	float: left;
+}
+.thumbnail p {
+	width: 87%;
+	text-align: justify;
+	float: right;
+}
+.contentleft {
+	width: 50%;
+	min-height: 90px;
+	background-color: white;
+	float: left;
+	padding: 30px;
+	margin: 10px 0 10px 230px;
+	overflow: auto;
+}
+.contentright {
+	width: 50%
+	min-height: 90px;
+	background-color: white;
+	padding: 0px 5px 0 0;
+	margin: 10px 275px 10px 0;
+	float: right;
+}
+.content img {
+	width: 50px;
+	height: 50px;
+}
+.button{
+	padding:5px 20px;
+	background-color: #0b80bc;
+	text-decoration: none;
+	display: inline-block;
+	border-radius: 8px;
+	border:none;
+	cursor: pointer;
+}
+.button span{
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	transition: 0.5s;
+}
+.button span:after {
+	position: absolute;
+	opacity: 0;
+	top: 0;
+	right: -20px;
+	transition: 0.5s;
+}
+.button:hover span{
+	padding-right: 25px;
+}
+.button:hover span after{
+	opacity: 1;
+	right: 0;
+}
+.footer {
+	min-height: 30px;
+	background-image: linear-gradient(to bottom right,#0b80bc,#5bbaeb);
+	font-size: 9px;
+	text-align: center;
+	padding: 6px;
+	margin: 0;
+}
+.footer p {
+	font-size: 10px;
+}
+.footer a {
+	text-decoration-line: none;
+	font-size: 15px;
+	padding-right: 10px;
+}
+.footer img {
+	width: 20px;
+	height: 20px;
+	padding-top: 5px;	
+}
+.footer ul li {
+	display: inline-block;
+	position: relative;
+}
