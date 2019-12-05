@@ -1,0 +1,29 @@
+img {
+	width: 80px;
+}
+.jumb-add {
+	min-height: 25%;
+	background-image: url(../img/jumb3.jpg);
+	background-size: cover;
+}
+.bgcontent {
+	background-image: linear-gradient(to bottom right,#d3edfb,#fafbfb); 
+}
+.hcard {
+	height: 225px;
+}
+.icard {
+	width: 75%;
+	height: 75%;
+}
+li {
+	list-style-type: none;
+}
+.fimg {
+	width: 12%;
+	
+}
+#more {
+	display: none;
+}
+
